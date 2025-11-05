@@ -1,2 +1,3 @@
 # Portfolio-project
-A portfolio that is made using HTML and CSS only
+
+## Simple webpage crafted using pure HTML and CSS.
