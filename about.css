@@ -1,0 +1,85 @@
+h3 {
+  padding-left: 26px;
+}
+
+/* =========== SECTION ========== */
+
+/* to have the curve effect on the top and bottom */
+section {
+  background-color: hsl(0, 0%, 9%);
+}
+
+.inner-wrapper .bio-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 30px;
+}
+
+.education-card {
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 19px;
+  margin: 40px 0;
+  background-color: hsl(184, 49%, 93%);
+  box-shadow: 2px 2px 3px hsla(0, 0%, 0%, 0.1);
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 7px;
+}
+
+.education-section img {
+  width: 75px;
+  border-radius: 50%;
+}
+
+.text-section .cirtificate {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.inner-wrapper .cta-section-about {
+  background: none;
+  box-shadow: none;
+}
+
+.cta-card-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0, 0%, 9%);
+  color: hsl(184, 49%, 93%);
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 30px;
+  height: 310px;
+  width: 300px;
+}
+
+.cta-card-about img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* part of this in common.css */
+.cta-button {
+  background-color: hsl(189, 60%, 82%);
+  border: 3px solid white;
+}
+
+.cta-button:hover {
+  scale: 1;
+  border: 6px solid white;
+}
+
+.cta-container.last {
+  padding-bottom: 0;
+}
